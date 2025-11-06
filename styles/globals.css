@@ -146,7 +146,7 @@ body {
   top: 0;
   left: 5%;
   width: 0.5px;
-  height: 505%;
+  height: 2802px;
   background-color: #B1B1B1;
   z-index: 1;
 }
@@ -157,7 +157,7 @@ body {
   top: 0;
   right: 5%;
   width: 0.5px;
-  height: 505%;
+  height: 2802px;
   background-color: #B1B1B1;
   z-index: 1;
 }
@@ -634,7 +634,9 @@ body {
   border: 1px solid #ccc;
   box-sizing: border-box;
   background-color: #00000000;
-  text-emphasis-color: white;
+  color: white; 
+  font-family: inherit; /* pour garder la même typo */
+  appearance: none; /* ✅ enlève le style par défaut du navigateur */
 }
 
 .contact-section textarea {
