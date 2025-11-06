@@ -83,7 +83,7 @@ export default function Home() {
 
           <div className="about-content">
            
-            <h2>I'm <span class="highlight-name">Emilie Tao</span></h2>
+            <h2>I&apos;m <span class="highlight-name">Emilie Tao</span></h2>
 
             
             <h3>A junior developper</h3>
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="experience-card">
               <div className="experience-content">
                 <h3>CY Cergy Paris University</h3>
-                <p>University Bachelor's in Technology in Multimedia and Internet Professions, Web Development and Interactive Systems Track</p>
+                <p>University Bachelor&apos;s in Technology in Multimedia and Internet Professions, Web Development and Interactive Systems Track</p>
               </div>
             </div>
           )}
@@ -235,7 +235,7 @@ export default function Home() {
           {/* Ligne horizontale décorative 4*/}
           <div className="decorative-line-4"></div>
 
-          <h2 className={`contact-title ${oxanium.className}`}>Let's Talk</h2>
+          <h2 className={`contact-title ${oxanium.className}`}>Let&apos;s Talk</h2>
 
           {/* ✅ Grille à deux colonnes */}
           <div className="contact-grid">
